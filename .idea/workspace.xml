@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="983a92b3-47da-435f-bf54-444a8917e76a" name="Changes" comment="Lab4 Init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lotr/Character.java" afterDir="false" />
+    <list default="true" id="983a92b3-47da-435f-bf54-444a8917e76a" name="Changes" comment="Demos">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lotr/Hobbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ElfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ElfTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,22 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="DemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665047962151</updated>
-      <workItem from="1665047963394" duration="317000" />
+      <workItem from="1665047963394" duration="775000" />
     </task>
     <task id="LOCAL-00001" summary="Lab4 Init">
       <created>1665048059208</created>
@@ -62,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665048059208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Character Creation">
+      <created>1665048313017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665048313017</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Demos">
+      <created>1665048381546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665048381546</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +116,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab4 Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab4 Init" />
+    <MESSAGE value="Character Creation" />
+    <MESSAGE value="Demos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demos" />
   </component>
 </project>
