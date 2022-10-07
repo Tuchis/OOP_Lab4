@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="983a92b3-47da-435f-bf54-444a8917e76a" name="Changes" comment="ˆ">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lotr/CharacterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lotr/Hobbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lotr/King.java" afterDir="false" />
+    <list default="true" id="983a92b3-47da-435f-bf54-444a8917e76a" name="Changes" comment="Test of tests and Hobbit class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lotr/Elf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lotr/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lotr/Nobel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ElfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lotr/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lotr/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ElfTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lotr/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lotr/King.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,41 +55,50 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HobbitTest.testSetHp">
-    <configuration name="DemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ElfTest">
+    <configuration name="ElfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DemoTest" />
+      <option name="MAIN_CLASS_NAME" value="ElfTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HobbitTest.testIsClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KingTest.testHp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HobbitTest" />
+      <option name="MAIN_CLASS_NAME" value="KingTest" />
+      <option name="METHOD_NAME" value="testHp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KingTest.testPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KingTest" />
+      <option name="METHOD_NAME" value="testPower" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnightTest.testIsClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
       <option name="METHOD_NAME" value="testIsClass" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HobbitTest.testSetHp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HobbitTest" />
-      <option name="METHOD_NAME" value="testSetHp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HobbitTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HobbitTest" />
-      <option name="METHOD_NAME" value="testToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,10 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HobbitTest.testSetHp" />
-        <item itemvalue="JUnit.HobbitTest.testIsClass" />
-        <item itemvalue="JUnit.HobbitTest.testToString" />
-        <item itemvalue="JUnit.DemoTest" />
+        <item itemvalue="JUnit.ElfTest" />
+        <item itemvalue="JUnit.KnightTest" />
+        <item itemvalue="JUnit.KnightTest.testIsClass" />
+        <item itemvalue="JUnit.KingTest.testPower" />
+        <item itemvalue="JUnit.KingTest.testHp" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665047962151</updated>
       <workItem from="1665047963394" duration="2603000" />
-      <workItem from="1665133174472" duration="2702000" />
+      <workItem from="1665133174472" duration="4526000" />
     </task>
     <task id="LOCAL-00001" summary="Lab4 Init">
       <created>1665048059208</created>
@@ -143,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665048751817</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test of tests and Hobbit class">
+      <created>1665135926932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665135926932</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +183,8 @@
     <MESSAGE value="Demos" />
     <MESSAGE value="Tests" />
     <MESSAGE value="ˆ" />
-    <option name="LAST_COMMIT_MESSAGE" value="ˆ" />
+    <MESSAGE value="Test of tests and Hobbit class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test of tests and Hobbit class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -185,6 +203,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/HobbitTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/KingTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
