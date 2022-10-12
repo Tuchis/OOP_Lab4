@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="983a92b3-47da-435f-bf54-444a8917e76a" name="Changes" comment="Added new classes (Elf, Knight, King) and test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lotr/GameManager.java" afterDir="false" />
+    <list default="true" id="983a92b3-47da-435f-bf54-444a8917e76a" name="Changes" comment="GameManager and CharacterFactory realisation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lotr/CharacterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lotr/CharacterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lotr/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lotr/Elf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lotr/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lotr/GameManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lotr/Nobel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lotr/Nobel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +123,11 @@
       <option name="presentableId" value="Default" />
       <updated>1665047962151</updated>
       <workItem from="1665047963394" duration="2603000" />
-      <workItem from="1665133174472" duration="9313000" />
+      <workItem from="1665133174472" duration="10758000" />
+      <workItem from="1665471732286" duration="1875000" />
+      <workItem from="1665561081968" duration="765000" />
+      <workItem from="1665574730121" duration="264000" />
+      <workItem from="1665581402290" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="Lab4 Init">
       <created>1665048059208</created>
@@ -166,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665137823524</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="GameManager and CharacterFactory realisation">
+      <created>1665219573066</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665219573066</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +203,8 @@
     <MESSAGE value="ˆ" />
     <MESSAGE value="Test of tests and Hobbit class" />
     <MESSAGE value="Added new classes (Elf, Knight, King) and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new classes (Elf, Knight, King) and test" />
+    <MESSAGE value="GameManager and CharacterFactory realisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="GameManager and CharacterFactory realisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

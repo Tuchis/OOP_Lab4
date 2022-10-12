@@ -8,9 +8,11 @@ public class Elf extends Character {
     public void kick(Character whoKick){
         if (whoKick.getPower() < this.getPower()){
             whoKick.setHp(0);
+            System.out.println("Elf kills " + whoKick.getClass().getSimpleName());
         }
         else {
             this.setPower(this.getPower() - 1);
+            System.out.println("Elf becomes weaker");
         }
     }
 }
